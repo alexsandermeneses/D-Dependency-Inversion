@@ -1,7 +1,10 @@
 package org.example;
 
+import org.example.payment.Payment;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Payment payment = new Payment();
+        payment.pay("250");
     }
 }
